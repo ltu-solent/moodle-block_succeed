@@ -10,21 +10,22 @@ class block_succeed extends block_base {
  
     $this->content         =  new stdClass;
 	$this->content->text   = '<div class="succeed_links">';
-	$this->content->text  .= '<strong>Study Guides</strong><br>';
-	$this->content->text  .= '<a title="succeed@solent Homepage" href="/succeed">succeed@solent Homepage</a><br>';
-	$this->content->text  .= '<a title="Research skills" href="/succeed/research-skills">Research skills</a><br>';
-	//$this->content->text  .= '<a title="Online submission" href="/succeed/online-submission">Online submission</a><br>';
-	$this->content->text  .= '<a title="Passing exams" href="/succeed/passing-exams">Passing exams</a><br>';
-	$this->content->text  .= '<a title="Managing your learning" href="/succeed/managing-your-learning">Managing your learning</a><br>';
-	$this->content->text  .= '<a title="Dissertations" href="/succeed/dissertations">Dissertations</a><br>';
-	$this->content->text  .= '<a title="Writing strategies" href="/succeed/writing-strategies">Writing strategies</a><br>';
-	$this->content->text  .= '<a title="Reflective thinking and writing" href="/succeed/reflective-thinking-writing">Reflective thinking and writing</a><br>';
-    $this->content->text  .= '<a title="Referencing and plagiarism" href="/succeed/referencing-plagiarism">Referencing and plagiarism</a><br>';
-	$this->content->text  .= '<a title="Working in groups" href="/succeed/working-in-groups">Working in groups</a><br>';
-	$this->content->text  .= '<a title="Using tutor feedback" href="/succeed/using-tutor-feedback">Using tutor feedback</a><br>';
-	$this->content->text  .= '<a title="Critical thinking" href="/succeed/critical-thinking">Critical thinking</a><br>';
+	//$this->content->text  .= '<strong>Study Guides</strong><br>';
+	$this->content->text  .= '<a title="succeed@solent homepage" href="/succeed">succeed@solent homepage</a><br>';
+	$this->content->text  .= '<a title="Referencing and academic integrity" href="/succeed/referencing">Referencing and academic integrity</a><br>';
+	$this->content->text  .= '<a title="Academic writing" href="/succeed/academic-writing">Academic writing</a><br>';
+	$this->content->text  .= '<a title="Time management and group work" href="/succeed/time-group-work">Time management and group work</a><br>';
+	$this->content->text  .= '<a title="Writing essays and reports" href="/succeed/writing-essays-reports">Writing essays and reports</a><br>';
 	$this->content->text  .= '<a title="Literature reviews" href="/succeed/literature-reviews">Literature reviews</a><br>';
-	$this->content->text  .= '<a title="Writing academically" href="/succeed/writing-academically">Writing academically</a><br>';
+	$this->content->text  .= '<a title="Dissertations" href="/succeed/dissertations">Dissertations</a><br>';
+	$this->content->text  .= '<a title="Grammar" href="/succeed/grammar">Grammar</a><br>';
+	$this->content->text  .= '<a title="Research skills" href="/succeed/research-skills">Research skills</a><br>';
+    $this->content->text  .= '<a title="Passing exams and tutor feedback" href="/succeed/passing-exams">Passing exams and tutor feedback</a><br>';
+	$this->content->text  .= '<a title="Presentations" href="/succeed/presentations">Presentations</a><br>';
+	$this->content->text  .= '<a title="Essential digital skills and awareness" href="/succeed/digital-skills">Essential digital skills and awareness</a><br>';
+	$this->content->text  .= '<a title="Maths and statistics" href="/succeed/maths-statistics">Maths and statistics</a><br>';
+	$this->content->text  .= '<a title="Critical thinking" href="/succeed/critical-thinking">Critical thinking</a><br>';
+	$this->content->text  .= '<a title="Reflective thinking and writing" href="/succeed/reflective-thinking-writing">Reflective thinking and writing</a><br>';
 	$this->content->text  .= '</div>';
 	
 	
