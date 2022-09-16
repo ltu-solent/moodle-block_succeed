@@ -25,6 +25,6 @@
 
 defined('MOODLE_INTERNAL') || die();
 
-$plugin->version = 2012102902;
+$plugin->version = 2012102904;
 $plugin->requires = 2010112400;
 $plugin->component = 'block_succeed';
